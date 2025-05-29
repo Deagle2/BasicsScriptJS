@@ -1,4 +1,4 @@
-//Hello
+//Fucntion Hello
 (function (window){
 
   var speakWord = "Hello";
