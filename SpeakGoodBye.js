@@ -1,11 +1,11 @@
-//Function speak goodbye
-(function (window){
+// Function speak goodbye
+(function (window) {
+  var speakWord = "Good Bye";
+  var byeSpeaker = {};
 
-var speakWord = "Good Bye";
-  var helloSpeaker = {};
-
-  byeSpeaker.speak = function (name){
+  byeSpeaker.speak = function (name) {
     console.log(speakWord + " " + name);
-};
+  };
 
+  window.byeSpeaker = byeSpeaker;
 })(window);
