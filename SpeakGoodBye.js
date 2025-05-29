@@ -1,3 +1,4 @@
+//Function speak goodbye
 (function (window){
 
 var speakWord = "Good Bye";
